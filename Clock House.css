@@ -40,9 +40,9 @@ main{
 
 #dd{
     border: 1px white solid;
-    font-size: 60px;
-    width: 3em;
-    height: 3em;
+    font-size: 45px;
+    width: 3.9em;
+    height: 3.9em;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -120,7 +120,7 @@ main{
     }
 
     #dd{
-        font-size: 45px;
+        font-size: 39px;
     }
     
 }
