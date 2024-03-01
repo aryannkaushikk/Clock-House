@@ -1,0 +1,128 @@
+/* RESET */
+
+body, h1, h3, p, span{
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+}
+
+/* RESET */
+
+/* SET */
+
+body{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+
+main{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 60em;
+    height: 15em;
+    border: 2px white solid;
+}
+
+#time{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 99px;
+    width: 5em;
+}
+
+
+#dd{
+    border: 1px white solid;
+    font-size: 60px;
+    width: 3em;
+    height: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+/* Analog Clock */
+
+#clock{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px white solid;
+    width: 12em;
+    height: 12em;
+    border-radius: 50%;
+    background-color: black;
+}
+
+#centre{
+    height: 0.6em;
+    width: 0.6em;
+    border-radius: 50%;
+    background-color: white;
+}
+
+#shand{
+    position: absolute;
+    height: 4.5em;
+    width: 0;
+    border: 1px red solid;
+    background-color: red;
+    transform-origin: bottom;
+    transform: rotateZ(0deg);
+}
+
+#mhand{
+    position: absolute;
+    height: 4em;
+    width: 0;
+    border: 2px blue solid;
+    background-color: blue;
+    transform-origin: bottom;
+    transform: rotateZ(0deg);
+}
+
+#hhand{
+    position: absolute;
+    height: 3.5em;
+    width: 0;
+    border: 3px white solid;
+    background-color: white;
+    transform-origin: bottom;
+    transform: rotateZ(0deg);
+}
+
+#clock>span{
+    position: absolute;
+    font-size: 12px;
+}
+
+/* Analog Clock */
+
+@media only screen and (max-width:360px) {
+    main{
+        height: 30em;
+        width: 15em;
+        flex-direction: column;
+    }
+
+    #time{
+        font-size: 45px;
+    }
+
+    #dd{
+        font-size: 45px;
+    }
+    
+}
+
+/* SET */
