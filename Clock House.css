@@ -108,7 +108,7 @@ main{
 
 /* Analog Clock */
 
-@media only screen and (max-width:360px) {
+@media only screen and (max-width:480px) {
     main{
         height: 30em;
         width: 15em;
